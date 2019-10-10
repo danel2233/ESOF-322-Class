@@ -1,0 +1,146 @@
+Found 48 files that possibly contain design patterns.
+
+C:\Users\user\Downloads\k-9-master\app\core\src\main\java\com\fsck\k9\controller\MessagingControllerCommands.java
+Possible patterns: Command
+
+C:\Users\user\Downloads\k-9-master\app\core\src\main\java\com\fsck\k9\controller\PendingCommandSerializer.java
+Possible patterns: Command
+
+C:\Users\user\Downloads\k-9-master\app\core\src\main\java\com\fsck\k9\controller\ProgressBodyFactory.java
+Possible patterns: Factory
+
+C:\Users\user\Downloads\k-9-master\app\core\src\main\java\com\fsck\k9\mailstore\util\FileFactory.java
+Possible patterns: Factory
+
+C:\Users\user\Downloads\k-9-master\app\core\src\main\java\com\fsck\k9\message\IdentityHeaderBuilder.java
+Possible patterns: Builder
+
+C:\Users\user\Downloads\k-9-master\app\core\src\main\java\com\fsck\k9\message\MessageBuilder.java
+Possible patterns: Builder
+
+C:\Users\user\Downloads\k-9-master\app\core\src\main\java\com\fsck\k9\message\PgpMessageBuilder.java
+Possible patterns: Builder
+
+C:\Users\user\Downloads\k-9-master\app\core\src\main\java\com\fsck\k9\message\SimpleMessageBuilder.java
+Possible patterns: Builder
+
+C:\Users\user\Downloads\k-9-master\app\core\src\main\java\com\fsck\k9\message\TextBodyBuilder.java
+Possible patterns: Builder
+
+C:\Users\user\Downloads\k-9-master\app\core\src\main\java\com\fsck\k9\search\SqlQueryBuilder.java
+Possible patterns: Builder
+
+C:\Users\user\Downloads\k-9-master\app\core\src\test\java\com\fsck\k9\controller\PendingCommandSerializerTest.java
+Possible patterns: Command
+
+C:\Users\user\Downloads\k-9-master\app\core\src\test\java\com\fsck\k9\message\MessageBuilderTest.java
+Possible patterns: Builder
+
+C:\Users\user\Downloads\k-9-master\app\core\src\test\java\com\fsck\k9\message\TextBodyBuilderTest.java
+Possible patterns: Builder
+
+C:\Users\user\Downloads\k-9-master\app\k9mail\src\main\java\com\fsck\k9\widget\list\MessageListRemoteViewFactory.java
+Possible patterns: Factory
+
+C:\Users\user\Downloads\k-9-master\app\storage\src\test\java\com\fsck\k9\storage\migrations\MigrationMimeStructureStateTest.java
+Possible patterns: State
+
+C:\Users\user\Downloads\k-9-master\app\ui\src\main\java\com\fsck\k9\activity\AlternateRecipientAdapter.java
+Possible patterns: Adapter
+
+C:\Users\user\Downloads\k-9-master\app\ui\src\main\java\com\fsck\k9\activity\compose\IdentityAdapter.java
+Possible patterns: Adapter
+
+C:\Users\user\Downloads\k-9-master\app\ui\src\main\java\com\fsck\k9\activity\compose\RecipientAdapter.java
+Possible patterns: Adapter
+
+C:\Users\user\Downloads\k-9-master\app\ui\src\main\java\com\fsck\k9\activity\setup\AuthTypeAdapter.java
+Possible patterns: Adapter
+
+C:\Users\user\Downloads\k-9-master\app\ui\src\main\java\com\fsck\k9\activity\setup\ConnectionSecurityAdapter.java
+Possible patterns: Adapter
+
+C:\Users\user\Downloads\k-9-master\app\ui\src\main\java\com\fsck\k9\ui\crypto\OpenPgpApiFactory.java
+Possible patterns: Factory
+
+C:\Users\user\Downloads\k-9-master\backend\imap\src\main\java\com\fsck\k9\backend\imap\CommandExpunge.java
+Possible patterns: Command
+
+C:\Users\user\Downloads\k-9-master\backend\imap\src\main\java\com\fsck\k9\backend\imap\CommandMarkAllAsRead.java
+Possible patterns: Command
+
+C:\Users\user\Downloads\k-9-master\backend\imap\src\main\java\com\fsck\k9\backend\imap\CommandMoveOrCopyMessages.java
+Possible patterns: Command
+
+C:\Users\user\Downloads\k-9-master\backend\imap\src\main\java\com\fsck\k9\backend\imap\CommandSetFlag.java
+Possible patterns: Command
+
+C:\Users\user\Downloads\k-9-master\backend\pop3\src\main\java\com\fsck\k9\backend\pop3\CommandSetFlag.java
+Possible patterns: Command
+
+C:\Users\user\Downloads\k-9-master\backend\webdav\src\main\java\com\fsck\k9\backend\webdav\CommandMarkAllAsRead.java
+Possible patterns: Command
+
+C:\Users\user\Downloads\k-9-master\backend\webdav\src\main\java\com\fsck\k9\backend\webdav\CommandMoveOrCopyMessages.java
+Possible patterns: Command
+
+C:\Users\user\Downloads\k-9-master\backend\webdav\src\main\java\com\fsck\k9\backend\webdav\CommandSetFlag.java
+Possible patterns: Command
+
+C:\Users\user\Downloads\k-9-master\mail\common\src\androidTest\java\com\fsck\k9\mail\ssl\TrustManagerFactoryTest.java
+Possible patterns: Factory
+
+C:\Users\user\Downloads\k-9-master\mail\common\src\main\java\com\fsck\k9\mail\BodyFactory.java
+Possible patterns: Factory
+
+C:\Users\user\Downloads\k-9-master\mail\common\src\main\java\com\fsck\k9\mail\CertificateChainException.java
+Possible patterns: Chain
+
+C:\Users\user\Downloads\k-9-master\mail\common\src\main\java\com\fsck\k9\mail\DefaultBodyFactory.java
+Possible patterns: Factory
+
+C:\Users\user\Downloads\k-9-master\mail\common\src\main\java\com\fsck\k9\mail\ssl\DefaultTrustedSocketFactory.java
+Possible patterns: Factory
+
+C:\Users\user\Downloads\k-9-master\mail\common\src\main\java\com\fsck\k9\mail\ssl\KeyChainKeyManager.java
+Possible patterns: Chain
+
+C:\Users\user\Downloads\k-9-master\mail\common\src\main\java\com\fsck\k9\mail\ssl\TrustedSocketFactory.java
+Possible patterns: Factory
+
+C:\Users\user\Downloads\k-9-master\mail\common\src\main\java\com\fsck\k9\mail\ssl\TrustManagerFactory.java
+Possible patterns: Factory
+
+C:\Users\user\Downloads\k-9-master\mail\protocols\imap\src\main\java\com\fsck\k9\mail\store\imap\Commands.java
+Possible patterns: Command
+
+C:\Users\user\Downloads\k-9-master\mail\protocols\imap\src\main\java\com\fsck\k9\mail\store\imap\ImapCommandSplitter.java
+Possible patterns: Command
+
+C:\Users\user\Downloads\k-9-master\mail\protocols\imap\src\main\java\com\fsck\k9\mail\store\imap\ImapPushState.java
+Possible patterns: State
+
+C:\Users\user\Downloads\k-9-master\mail\protocols\imap\src\main\java\com\fsck\k9\mail\store\imap\UidSearchCommandBuilder.java
+Possible patterns: Builder, Command
+
+C:\Users\user\Downloads\k-9-master\mail\protocols\imap\src\test\java\com\fsck\k9\mail\store\imap\ImapCommandSplitterTest.java
+Possible patterns: Command
+
+C:\Users\user\Downloads\k-9-master\mail\protocols\imap\src\test\java\com\fsck\k9\mail\store\imap\ImapPushStateTest.java
+Possible patterns: State
+
+C:\Users\user\Downloads\k-9-master\mail\protocols\imap\src\test\java\com\fsck\k9\mail\store\imap\UidSearchCommandBuilderTest.java
+Possible patterns: Builder, Command
+
+C:\Users\user\Downloads\k-9-master\mail\protocols\pop3\src\main\java\com\fsck\k9\mail\store\pop3\Pop3Commands.java
+Possible patterns: Command
+
+C:\Users\user\Downloads\k-9-master\mail\protocols\webdav\src\main\java\com\fsck\k9\mail\store\webdav\WebDavSocketFactory.java
+Possible patterns: Factory
+
+C:\Users\user\Downloads\k-9-master\mail\testing\src\main\java\com\fsck\k9\mail\helpers\TestMessageBuilder.java
+Possible patterns: Builder
+
+C:\Users\user\Downloads\k-9-master\mail\testing\src\main\java\com\fsck\k9\mail\helpers\TestTrustedSocketFactory.java
+Possible patterns: Factory
+
